@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanna hang out?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Hanging Out with Mario's Request Form</h1>
+    <h2>In order to get schwifty some time together fill the following Information</h2>
+    </div>
+
+    <form action="" method="post" class="hang-out-form">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <div class="form-row">
+                <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Lomas">
+            </div>
+            <div class="form-row">
+                <label for="lastname">Last Name:</label>
+            <input type="text" name="lastname" id="lastname" placeholder="Turbo">
+            </div>
+            <div class="form-row">
+                <label for="age">Age:</label>
+            <input type="number" min="16" max="100" name="age" id="age">
+            </div>
+        </fieldset>
+        <div class="form-row">
+            <fieldset class="gender">
+                <legend>What's your gender? (There are only two options)</legend>
+                <input type="radio" name="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="female" id="female">
+                <label for="female">Female</label>
+            </fieldset>
+        </div>
+            <fieldset class="contact">
+                <legend>Contact information</legend>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="tiowilly@elmejor.com">
+                </div>
+                <div class="form-row">
+                    <label for="tel">Tel:</label>
+                <input type="tel" name="tel">
+                </div>
+                <div class="form-row">
+                    <label for="address">Address:</label>
+                <input type="text" name="address">
+                </div>
+            </fieldset>
+            <Fieldset>
+                <legend>About the plan</legend>
+                <div class="form-row">
+                    <label for="destiny">Where to:</label>
+                <input type="text" name="destiny">
+                </div>
+               <div class="form-row">
+                <label for="date">When:</label>
+                <input type="text" name="date" id="date">
+               </div>
+               <div class="form-row">
+                <label for="forwhat">What we are gonna do there:</label>
+                <input type="text" name="forwhat" id="forwhat">
+               </div>
+                <div class="form-row">
+                    <label for="details">Do you have any additional details?</label>
+                <textarea name="details" id="details"></textarea>
+                </div>
+            </Fieldset>
+    </form>
+</body>
+</html>
